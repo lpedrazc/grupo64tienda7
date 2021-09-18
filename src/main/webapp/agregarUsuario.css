@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+body{
+	font-family: arial, helvetica;
+	background: white;
+
+}
+
+h1{
+	color: red;
+    text-align: center;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: darkred;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+
+}
+.menu li{
+	display: inline-block;
+	text-align: left;
+}
+.menu li a:hover{
+	background: #ef8354;
+}
+
+form{
+	margin: 0 auto;
+	background: darkred;
+	width: 600px;
+	margin-top: 60px;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+.campos{
+	margin-top: 15px;
+}
+#botones{
+	margin-top: 20px;
+	margin-left: 150px;
+
+}
+
+form label{
+	float: left;
+	width: 150px;
+	color:  whitesmoke;
+
+}
+form input{
+	width: 300px;
+}
+form textarea{
+	width: 200px;
+	height: 100px;
+}
+
+form input[type="submit"]{
+	width: 100px;
+
+	background-color: palevioletred;
+	border-color: palevioletred;
+	color: whitesmoke;
+	cursor: pointer;
+}
+form input[type="submit"]:hover{
+	background-color: whitesmoke;
+	color: palevioletred;
+	border-color: whitesmoke;
+}
